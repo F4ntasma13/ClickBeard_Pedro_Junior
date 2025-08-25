@@ -4,8 +4,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Scissors, Clock, Users, Star } from "lucide-react"
 
 export default function HomePage() {
-  console.log("[v0] HomePage renderizando...")
-
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
       <header className="container mx-auto px-4 py-6">
