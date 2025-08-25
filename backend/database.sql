@@ -59,7 +59,7 @@ CREATE TABLE IF NOT EXISTS appointments (
 );
 -- Inserir dados de teste
 -- Administrador de teste
-INSERT INTO users (name, email, password, is_admin) VALUES 
+INSERT INTO admins (name, email, password, is_admin) VALUES 
 ('Admin Teste', 'admin@teste.com', '$2a$10$tMuLQxsU22nfR3NWCpq3buioLKXAiVhNqa7.sGCumsq1VvVPqbDuu', TRUE)
 ON CONFLICT (email) DO NOTHING;
 -- Usuário cliente de teste
